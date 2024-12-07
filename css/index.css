@@ -1,0 +1,184 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background: #f2f2f3;;
+}
+/* Header */
+
+header {
+  background-color: rgb(248, 86, 6);
+  height: 130px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  margin-right: 20px;
+  color: white;
+}
+
+/* Daraz-logo */
+
+/* Search-Bar */
+
+.Search-Bar input {
+  width: 688px;
+  height: 45px;
+  border: none;
+}
+
+.parent-search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.Search-Bar-icon {
+  display: flex;
+
+  border: 1px solid rgb(250, 234, 215);
+  height: 45px;
+  width: 40px;
+
+  background-color: rgb(250, 234, 215);
+  align-items: center;
+}
+
+.Search-Bar-icon i {
+  color: orange;
+  align-items: center;
+  margin-left: 10px;
+}
+
+/* cart-icon */
+
+.cart-icon i {
+  color: #fff;
+  width: 150px;
+  margin-right: 5px;
+}
+
+.Daraz-logo {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+/* Section  */
+
+.sale-image img {
+  width: 100%;
+  margin: auto;
+}
+
+.parent-row-1 {
+  display: flex;
+  align-items: center;
+  background: #fff;
+}
+.image-1-parent,
+.image-row-2-parent,
+.image3-row-1-parent,
+.image4-row1-parent,
+.image5-row1-parent ,
+.image6-row-1-parent {
+  height: 300px;
+  border: 1px solid black;
+  width: 200px;
+  margin-right: 5px;
+  width: 95%;
+
+}
+
+.row-1-image {
+  background-image: url("/asset/image/image-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 188px;
+  width: 188px;
+}
+
+.image2-row-1 {
+  background-image: url("/asset/image/image-2-row-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 188px;
+  width: 188px;
+}
+
+.image3-row1 {
+  background-image: url("/asset/image/image3-row1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 188px;
+  width: 188px;
+}
+
+.image4-row1{
+
+  background-image: url("/asset/image/image4-row1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 188px;
+  width: 188px;
+}
+
+.image5-row1{
+  background-image: url("/asset/image/image5-row1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 188px;
+  width: 188px;
+}
+
+.image6-row1{
+
+  background-image: url("/asset/image/image6-row1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 188px;
+  width: 188px;
+
+}
+
+/* catrgories start */
+
+.Categories-h2 h2 {
+  height: 50px;
+  background: #f2f2f3;
+}
+
+.row2-image1-parent , .row2-image2-parent  {
+
+  height: 148px;
+  width: 148px;
+  border: 1px solid;
+
+}
+
+.row-2-image1{
+background-image: url("asset/image/.row-2-image1");
+background-image: url("/asset/image/row2-image-1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: inherit;
+}
+
+.row-2-image2{
+  background-image: url("asset/image/.row2-image3.png");
+  background-repeat: no-repeat;
+background-size: cover;
+height: inherit;
+
+}
